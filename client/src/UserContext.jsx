@@ -12,6 +12,6 @@ export default function UserContextProvider({children}){
         })
     })
     return (
-        <UserContext.Provider value = {{username,setUsername,id,setId}}>{children}</UserContext.Provider>
+        < .Provider value = {{username,setUsername,id,setId}}>{children}</>
     )
 }
